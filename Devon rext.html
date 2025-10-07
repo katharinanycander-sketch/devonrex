@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devon Rex-katter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Devon Rex-katter</h1>
+        <nav>
+            <ul>
+                <li><a href="#om">Om rasen</a></li>
+                <li><a href="#egenskaper">Egenskaper</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="om">
+            <h2>Om Devon Rex</h2>
+            <p>Devon Rex är en ovanlig kattras känd för sin lockiga päls, stora öron och sociala personlighet. Rasen uppstod i England på 1960-talet.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Devon_Rex_cat_portrait.jpg/640px-Devon_Rex_cat_portrait.jpg" alt="Devon Rex katt" />
+        </section>
+
+        <section id="egenskaper">
+            <h2>Karaktär och Egenskaper</h2>
+            <ul>
+                <li>Mycket social och lekfull</li>
+                <li>Minimal fällning av päls</li>
+                <li>Intelligent och lättlärd</li>
+                <li>Behöver mycket sällskap</li>
+            </ul>
+            <button id="faktaBtn">Visa en rolig fakta</button>
+            <p id="faktaText"></p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakta oss</h2>
+            <form id="kontaktForm">
+                <label for="namn">Namn:</label>
+                <input type="text" id="namn" name="namn" required>
+
+                <label for="meddelande">Meddelande:</label>
+                <textarea id="meddelande" name="meddelande" required></textarea>
+
+                <button type="submit">Skicka</button>
+            </form>
+            <p id="formSvar"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Devon Rex Fans Sverige</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
